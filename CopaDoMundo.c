@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int ano;
-    
+
     scanf("%d", &ano);
 
     if (ano >= 1930 && (ano - 1930) % 4 == 0) {
